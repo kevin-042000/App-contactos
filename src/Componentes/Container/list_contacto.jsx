@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import {Contacto} from '../Componente JS/Class.contacto'
 import ComponenteContacto from '../Componente JSX/componente_contacto'
 import NuevoContacto from '../Formularios/nuevoContacto'
@@ -36,6 +36,7 @@ const ListContacto = () => {
     return (
         <div>
           <div className='col-12'>
+          <div className='card'>
             <div className='card-header p-3'>
               <h5>
                 Tus Contactos
@@ -68,6 +69,7 @@ const ListContacto = () => {
             </div>
             <div className='card-footer'>
             <i class="bi bi-person-plus accion "></i>
+            </div>
             </div>
 
             <NuevoContacto 
